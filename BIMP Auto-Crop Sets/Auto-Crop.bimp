@@ -1,0 +1,9 @@
+#BIMP 2.5
+#MANIPULATION SET DEFINITION
+
+[USERDEF0]
+procedure=plug-in-autocrop
+num_params=3
+PARAM0=1
+PARAM1=NOT_USED
+PARAM2=NOT_USED

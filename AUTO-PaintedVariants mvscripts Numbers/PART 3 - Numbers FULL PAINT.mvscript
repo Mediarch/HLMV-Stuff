@@ -1,0 +1,231 @@
+"ModelViewerScript"
+{
+
+// -----------------------------------  //
+
+// WARNING //
+
+// BE WARY THAT BECAUSE THE PROGRAM TAKES 10ms PER TASK, THERE WILL BE A LOT OF FLASHING LIGHTS DUE TO HOW THE PROCESS OF MAKING TRANSPARENT IMAGES WORK.
+// FOR EACH PAINT VARIATION SCREENSHOT, THE PROGRAM WILL QUICKLY SWITCH FROM A BLACK BACKGROUND TO A WHITE BACKGROUND, THEN SWITCH TO THE NEXT PAINT VARIANT AND REPEAT THE PROCESS UNTIL IT'S DONE.
+// IF YOU HAVE "Photosensitive Epilepsy", PLEASE DO NOT USE THIS ".mvscript".
+// BE WARY THAT THE PROGRAM ITSELF DOES BLINK BETWEEN A BLACK BACKGROUND TO A WHITE BACKGROUND THEN BACK TO A BLACK BACKGROUND WHEN USING THE STANDARD "Options -> Make Screenshot..." OPTION, BUT BLINKS JUST ONCE.
+
+// -----------------------------------  //
+
+// Screenshots will be saved to: "Steam\steamapps\common\Team Fortress 2\bin" //
+
+// -----------------------------------  //
+
+	//Registry key name, but with slashes
+	//"LoadModel"				"models\player\items\medic\medic_german_gonzila.mdl"
+	
+	//"LoadModel" is not a necessary step in the process, so it's going to be commented for now as it's not necessary with the current method.
+
+	//merge1 value from Registry
+	//"LoadMergeModel" 		""
+
+	//bgColor value from Registry
+	"SetBGColor"			"0.000000 0.000000 0.000000 1.000000"
+
+	//Rot value from Registry
+	//"SetCameraAngles"		"19.622055 -43.032928 -17.406704"
+	
+	//"SetCameraAngles" is not a necessary step in the process, so it's going to be commented for now as it's not necessary with the current method.
+
+	//Trans value from Registry
+	//"SetCameraOrigin"		"19.335369 -1.250000 3.269499"
+	
+	//"SetCameraOrigin" is not a necessary step in the process, so it's going to be commented for now as it's not necessary with the current method.
+
+	//lightrot value from Registry
+	//"SetLightAngles"		"180.000000 0.000000 0.000000"
+	
+	//"SetLightAngles" is not a necessary step in the process, so it's going to be commented for now as it's not necessary with the current method.
+	
+// -----------------------------------  //
+	
+//  START PAINTED VARIANTS SCREENSHOTS  //
+
+// An Extraordinary Abundance of Tinge //
+	
+	"SetMatVars"
+	{
+	"$colortint_base" "[ 0.901961 0.901961 0.901961 ]"
+	}
+	"Screenshot"			"38.tga"
+	
+// Color No. 216-190-216 //
+	
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.847059 0.745098 0.847059 ]"
+	}
+	"Screenshot"			"39.tga"
+	
+// Peculiarly Drab Tincture //
+	
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.772549 0.686275 0.568627 ]"
+	}
+	"Screenshot"			"40.tga"
+	
+// Aged Moustache Grey //
+	
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.494118 0.494118 0.494118 ]"
+	}
+	"Screenshot"			"41.tga"
+	
+// A Distinctive Lack of Hue //
+	
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.078431 0.078431 0.078431 ]"
+	}
+	"Screenshot"			"42.tga"
+	
+// After Eight //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.176471 0.176471 0.141176 ]"
+	}
+	"Screenshot"			"43.tga"
+	
+// Radigan Conagher Brown //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.411765 0.301961 0.227451 ]"
+	}
+	"Screenshot"			"44.tga"
+
+// Ye Olde Rustic Colour //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.486275 0.423529 0.341176 ]"
+	}
+	"Screenshot"			"45.tga"
+	
+// Muskelmannbraun //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.647059 0.458824 0.270588 ]"
+	}
+	"Screenshot"			"46.tga"
+	
+// Mann Co Orange //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.811765 0.450980 0.211765 ]"
+	}
+	"Screenshot"			"47.tga"
+	
+// Australium Gold //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.905882 0.709804 0.231373 ]"
+	}
+	"Screenshot"			"48.tga"
+	
+// The Color of a Gentlemann Business Pants //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.941177 0.901961 0.549020 ]"
+	}
+	"Screenshot"			"49.tga"
+	
+// Dark Salmon Injustice //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.913726 0.588235 0.478431 ]"
+	}
+	"Screenshot"			"50.tga"
+	
+// Pink as Hell //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 1.000000 0.411765 0.705882 ]"
+	}
+	"Screenshot"			"51.tga"
+	
+// A Deep Commitment to Purple //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.490196 0.250980 0.443137 ]"
+	}
+	"Screenshot"			"52.tga"
+	
+// Noble Hatter's Violet //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.317647 0.219608 0.290196 ]"
+	}
+	"Screenshot"			"53.tga"
+	
+// A Color Similar to Slate //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.184314 0.309804 0.309804 ]"
+	}
+	"Screenshot"			"54.tga"
+	
+// Zepheniah Greed //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.258824 0.309804 0.231373 ]"
+	}
+	"Screenshot"			"55.tga"
+	
+// Drably Olive //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.501961 0.501961 0.000000 ]"
+	}
+	"Screenshot"			"56.tga"
+	
+// Indubitably Green //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.447059 0.619608 0.258824 ]"
+	}
+	"Screenshot"			"57.tga"
+	
+// The Bitter Taste of Defeat and Lime //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.196078 0.803922 0.196078 ]"
+	}
+	"Screenshot"			"58.tga"
+	
+// A Mann's Mint //
+
+	"SetMatVars"
+	{
+	"$colortint_base"		"[ 0.737255 0.866667 0.701961 ]"
+	}
+	"Screenshot"			"59.tga"
+	
+// -----------------------------------  //
+
+//   END PAINTED VARIANTS SCREENSHOTS   //
+	
+// -----------------------------------  //
+
+}
